@@ -1,0 +1,49 @@
+/*-- scss:defaults --*/
+$club-green: #2E7D32;
+$club-gray: #757575;
+
+/*-- scss:rules --*/
+/* Navbar */
+.navbar {
+  background-color: $club-green !important;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5 {
+  color: $club-green;
+}
+
+/* TOC */
+.sidebar nav li a.active {
+  border-left-color: $club-green;
+  color: $club-green;
+}
+
+/* Links */
+a {
+  color: $club-green;
+}
+a:hover {
+  color: darken($club-green, 10%);
+}
+
+/* Tables */
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: rgba($club-green, 0.05);
+}
+
+/* Blockquotes */
+blockquote {
+  border-left-color: $club-green;
+  background-color: rgba($club-green, 0.08);
+  padding: 0.5em 1em;
+  border-radius: 4px;
+}
+blockquote p {
+  font-size: 1.1em;
+}
+
+/* Title block */
+.title {
+  color: $club-green !important;
+}
