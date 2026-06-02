@@ -1,0 +1,17 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# Archivos temporales de Quarto/LaTeX
+*.log
+*.aux
+*.out
+*.toc
+*.synctex.gz
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
