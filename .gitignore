@@ -12,6 +12,9 @@ __pycache__/
 *.toc
 *.synctex.gz
 
+# Artefactos regenerables (Quarto render)
+**/build/
+
 # Archivos del sistema
 .DS_Store
 Thumbs.db
